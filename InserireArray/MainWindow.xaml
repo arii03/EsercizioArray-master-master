@@ -1,0 +1,15 @@
+﻿<Window x:Class="InserireArray.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InserireArray"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <TextBox Name="txtNumeroArray" HorizontalAlignment="Left" Height="45" Margin="40,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155"/>
+        <Button Name="btnCrea" Content="Crea" HorizontalAlignment="Left" Margin="245,116,0,0" VerticalAlignment="Top" Width="100" Height="45" Click="btnCrea_Click"/>
+        <TextBox Name="txtArray" HorizontalAlignment="Left" Height="48" Margin="40,237,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="305"/>
+
+    </Grid>
+</Window>
